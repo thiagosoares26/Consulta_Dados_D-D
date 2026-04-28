@@ -21,7 +21,7 @@ export default function Features() {
   return (
     <View>
       <FlatList
-        data={features.slice(0, 15)} // Exibe apenas os primeiros 10 features
+        data={features.slice(0, 15)} // Exibe apenas os primeiros 15 features
         keyExtractor={(item) => item.index}
         renderItem={({ item }) => (
           <View style={{ padding: 10 }}>
